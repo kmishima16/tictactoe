@@ -41,6 +41,11 @@ export default function Board({ xisNext, squares, onPlay }) {
           <Square value={squares[7]} onClick={() => handleClick(7)} />
           <Square value={squares[8]} onClick={() => handleClick(8)} />
         </div>
+        <div className="board-row">
+          <Square value={squares[9]} onClick={() => handleClick(6)} />
+          <Square value={squares[10]} onClick={() => handleClick(7)} />
+          <Square value={squares[11]} onClick={() => handleClick(8)} />
+        </div>
       </>
   )
   }
