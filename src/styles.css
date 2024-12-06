@@ -70,7 +70,7 @@
     text-align: center;
     width: 34px;
     /* 赤色に変更 */
-    /* color: red; */
+    color: red;
   }
   
   .board-row:after {
