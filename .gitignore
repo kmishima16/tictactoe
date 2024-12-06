@@ -1,3 +1,6 @@
 node_modules
 __screenshots__
 storybook-static
+actual/
+diff/
+expected/
